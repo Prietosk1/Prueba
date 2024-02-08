@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .container {
   background-color: aqua;
   border: 1px solid black;
@@ -10,6 +15,20 @@
   text-align: center;
 }
 
+.cabecera {
+  background-color: rgb(54, 140, 146);
+  border: 2px dotted blue;
+  width: 70%;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  
+}
 p, h1 {
   margin: 0;
 }
